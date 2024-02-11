@@ -1,6 +1,6 @@
-import '../styles/formEmail.css'
+import '../styles/emailForm.css'
 
-export default function FormEmail () {
+export default function EmailForm () {
     return(
         // onsubmit também...
         <form method='post' action='data'>

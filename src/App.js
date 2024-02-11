@@ -1,5 +1,5 @@
 import './App.css';
-import FormEmail from './components/formEmail.js';
+import EmailForm from './components/emailForm.js';
 import EfficiencyLogo from './components/efficiencyLogo.js';
 import SocialMediaFooter from './components/socialMediaFooter.js';
 import CountdownTimer from './components/countdownTimer.js';
@@ -13,7 +13,7 @@ function App() {
         <h1>EM BREVE...</h1>
         <p>Estamos preparando algo incrível para você! Fique atento para o lançamento no dia primeiro de março (01/03/2024).</p>
         <CountdownTimer/>
-        <FormEmail/>
+        <EmailForm/>
         <SocialMediaFooter/>
       </header>
     </div>
