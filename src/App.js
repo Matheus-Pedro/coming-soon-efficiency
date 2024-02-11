@@ -1,6 +1,5 @@
 import './App.css';
-import RememberButton from './components/rememberButton.js';
-import EmailEntry from './components/emailEntry.js';
+import FormEmail from './components/formEmail.js';
 import EfficiencyLogo from './components/efficiencyLogo.js';
 import SocialMediaFooter from './components/socialMediaFooter.js';
 import CountdownTimer from './components/countdownTimer.js';
@@ -12,10 +11,9 @@ function App() {
 
         <EfficiencyLogo/>
         <h1>EM BREVE...</h1>
-        <p>Estamos preparando algo incrível para você! Fique atento para o lançamento [data prevista].</p>
+        <p>Estamos preparando algo incrível para você! Fique atento para o lançamento no dia primeiro de março (01/03/2024).</p>
         <CountdownTimer/>
-        <EmailEntry/>
-        <RememberButton/>
+        <FormEmail/>
         <SocialMediaFooter/>
       </header>
     </div>
