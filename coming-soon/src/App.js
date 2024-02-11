@@ -1,22 +1,21 @@
-import logo from './logo.svg';
+import logo from './images/rino.png';
 import './App.css';
+import RememberButton from './components/rememberButton.js';
+import EmailEntry from './components/emailEntry.js';
+import EfficiencyLogo from './components/efficiencyLogo.js';
+import SocialMediaFooter from './components/socialMediaFooter.js';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        <EfficiencyLogo/>
+        <p>EM BREVE...</p>
+        <p>Estamos preparando algo incrível para você! Fique atento para o lançamento [data prevista].</p>
+        <EmailEntry/>
+        <RememberButton/>
+        <SocialMediaFooter/>
       </header>
     </div>
   );
