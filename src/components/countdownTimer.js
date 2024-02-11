@@ -24,9 +24,9 @@ export default function CountdownTimer () {
     }, []);
 
 
-    let chosenTime = new Date(timeData);
-    let differenceTime = chosenTime - currentTime;
-    let days = setTwoDigits(stopAtZero(Math.floor(differenceTime/1000/60/60/24))),
+    let chosenTime = new Date(timeData),
+        differenceTime = chosenTime - currentTime,
+        days = setTwoDigits(stopAtZero(Math.floor(differenceTime/1000/60/60/24))),
         hours = setTwoDigits(stopAtZero(Math.floor(differenceTime/1000/60/60)%24)),
         minutes = setTwoDigits(stopAtZero(Math.floor(differenceTime/1000/60)%60)),
         seconds = setTwoDigits(stopAtZero(Math.floor(differenceTime/1000)%60));
