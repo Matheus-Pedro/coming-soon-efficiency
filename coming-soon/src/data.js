@@ -1,0 +1,1 @@
+export let timeData = 'mar 1 2024 00:00:00'  // To change the time, you need change this string and added using this pattern. '<the three initial letters of the mounth> <number of the day> <number of the year> <number of the hour>:<number of the minute>:<number of the second>'
