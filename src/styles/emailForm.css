@@ -1,9 +1,47 @@
-.email-entry{
-    border-radius: 40px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+form {
+    padding: 0px;
+    margin: 2em;
 }
 
-.remember-me{
+input.email-entry{
+    border-radius: 40px;
+    border: none;
+    padding: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 10px;
+    outline: none;
+    font-size: 16px;
+    width: 15em;
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+
+}
+
+input.remember-me{
     color: black;
     background-color: #30F100;
+    background-image: none;
     border-radius: 40px;
+    border: none;
+    padding: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 10px;
+    font-size: 16px;
+    outline: none;
+    width: auto;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+
+    transition: background-image 2s ease, color 0.5s ease;
+}
+
+input.remember-me:hover{
+    color: #ffff;
+    background-image: linear-gradient(to left, #30a50c, #37dd0e);
 }
